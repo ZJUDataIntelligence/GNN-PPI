@@ -11,9 +11,9 @@ This repository is the implementation of "Graph Neural Network for Protein-Prote
 
 If you don't have conda installed, please install it following the instructions [here](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
 
-```git clone https://github.com/HazyResearch/hgcn```
+```git clone https://github.com/ZJUDataIntelligence/GNN-PPI.git```
 
-```cd hgcn```
+```cd GNN-PPI```
 
 ```conda env create -f environment.yml```
 
