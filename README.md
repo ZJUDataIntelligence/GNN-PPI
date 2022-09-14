@@ -39,8 +39,7 @@ This will create environment variables that are used in the code.
 
 ### 3.2  ```train.py```
 
-This script trains models for link prediction and node classification tasks. 
-Metrics are printed at the end of training or can be saved in a directory by adding the command line argument ```--save=1```.
+In order to run the GNN model on the PPI dataset，please set the --task option as "lp", choose GNN model with --model option, choose dataset with --ppitype and --ppimode options. The complete command can be referred to the following example.
 
 ```
 optional arguments:
