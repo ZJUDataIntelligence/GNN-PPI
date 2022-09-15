@@ -39,7 +39,7 @@ This will create environment variables that are used in the code.
 
 ### 3.2  ```train.py```
 
-In order to run the GNN model on the PPI dataset，please set the --task option as "lp", choose GNN model with --model option, choose dataset with --ppitype and --ppimode options. The complete command can be referred to the following example.
+In order to run the GNN model on the PPI dataset，please set the --task option as "lp" and set --dataset option as "ppi", choose GNN model with --model option, choose dataset with --ppitype and --ppimode options. The complete command can be referred to the following example.
 
 ```
 optional arguments:
