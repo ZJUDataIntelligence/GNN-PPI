@@ -21,9 +21,9 @@ If you don't have conda installed, please install it following the instructions 
 
 Alternatively, if you prefer to install dependencies with pip, please follow the instructions below:
 
-```virtualenv -p [PATH to python3.7 binary] hgcn```
+```virtualenv -p [PATH to python3.7 binary] GNN-PPI```
 
-```source hgcn/bin/activate```
+```source GNN-PPI/bin/activate```
 
 ```pip install -r requirements.txt```
 
