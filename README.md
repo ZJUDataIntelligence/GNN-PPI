@@ -11,9 +11,9 @@ This repository is the implementation of "Graph Neural Network for Protein-Prote
 
 If you don't have conda installed, please install it following the instructions [here](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
 
-```git clone https://github.com/HazyResearch/hgcn```
+```git clone https://github.com/ZJUDataIntelligence/GNN-PPI.git```
 
-```cd hgcn```
+```cd GNN-PPI```
 
 ```conda env create -f environment.yml```
 
@@ -21,9 +21,9 @@ If you don't have conda installed, please install it following the instructions 
 
 Alternatively, if you prefer to install dependencies with pip, please follow the instructions below:
 
-```virtualenv -p [PATH to python3.7 binary] hgcn```
+```virtualenv -p [PATH to python3.7 binary] GNN-PPI```
 
-```source hgcn/bin/activate```
+```source GNN-PPI/bin/activate```
 
 ```pip install -r requirements.txt```
 
@@ -39,8 +39,7 @@ This will create environment variables that are used in the code.
 
 ### 3.2  ```train.py```
 
-This script trains models for link prediction and node classification tasks. 
-Metrics are printed at the end of training or can be saved in a directory by adding the command line argument ```--save=1```.
+In order to run the GNN model on the PPI dataset，please set the --task option as "lp", choose GNN model with --model option, choose dataset with --ppitype and --ppimode options. The complete command can be referred to the following example.
 
 ```
 optional arguments:
