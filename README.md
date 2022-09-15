@@ -17,15 +17,6 @@ If you don't have conda installed, please install it following the instructions 
 
 ```conda env create -f environment.yml```
 
-### 2.2 Installation with pip
-
-Alternatively, if you prefer to install dependencies with pip, please follow the instructions below:
-
-```virtualenv -p [PATH to python3.7 binary] GNN-PPI```
-
-```source GNN-PPI/bin/activate```
-
-```pip install -r requirements.txt```
 
 ## 3. Usage
 
